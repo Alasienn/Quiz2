@@ -26,8 +26,13 @@ public class Quiz2 {
         Obra obra1 = new Obra("Paisaje Mediterraneo", "Cubismo", "Oleo" ,69, artista1);
         Obra obra2 = new Obra("Desnudo y Naturaleza Muerta", "Modernismo", "Oleo", 78, artista1);
         Obra obra3 = new Obra("El Descanso", "Modernismo", "Oleo", 65, artista1);
+        artista1.addObra(obra1);
+        artista1.addObra(obra2);
+        artista1.addObra(obra3);
         WebGallery w = new WebGallery(null, null);
         //w.crearArtista(artista1);
+        
+        System.out.println(artista1.toString());
         
         //lectura archivo de texto
         String archivo = "info.txt";
