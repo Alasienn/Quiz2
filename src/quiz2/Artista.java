@@ -41,7 +41,7 @@ public class Artista extends Usuario{
         String aux = "";
         aux += super.toString() + ", " + paints.size() + "\n";
         for(Obra obra : paints)
-            aux += obra.toString();
+            aux += obra.toString()+ "\n";
         return aux;
     }
     

@@ -13,10 +13,10 @@ public class Obra {
     private String name;
     private String style;
     private String technique;
-    private double value;
+    private int value;
     private Artista artist;
 
-    public Obra(String name, String style, String technique, double value, Artista artist) {
+    public Obra(String name, String style, String technique, int value, Artista artist) {
         this.name = name;
         this.style = style;
         this.technique = technique;
